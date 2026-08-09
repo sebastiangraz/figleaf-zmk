@@ -18,3 +18,13 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+include:
+  - board: figleaf_left//zmk
+    artifact-name: figleaf_left
+  - board: figleaf_right//zmk
+    artifact-name: figleaf_right
+  # Uncomment to build the left half with ZMK Studio support:
+  # - board: figleaf_left//zmk
+  #   snippet: studio-rpc-usb-uart
+  #   cmake-args: -DCONFIG_ZMK_STUDIO=y
+  #   artifact-name: figleaf_left_studio

@@ -1,6 +1,8 @@
 manifest:
   defaults:
-    revision: v0.3
+    # Zephyr 4.1 / HWMv2 board conventions are only on main until the next
+    # tagged release; pin back to a release (v0.4+) once one is available.
+    revision: main
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware

@@ -1,0 +1,14 @@
+file_format: "1"
+id: figleaf
+name: Figleaf
+type: board
+arch: arm
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - figleaf_left//zmk
+  - figleaf_right//zmk
