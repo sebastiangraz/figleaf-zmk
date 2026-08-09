@@ -1,0 +1,5 @@
+config SHIELD_FIGLEAF_LEFT
+    def_bool $(shields_list_contains,figleaf_left)
+
+config SHIELD_FIGLEAF_RIGHT
+    def_bool $(shields_list_contains,figleaf_right)

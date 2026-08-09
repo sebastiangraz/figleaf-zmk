@@ -1,0 +1,16 @@
+if SHIELD_FIGLEAF_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Figleaf"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_FIGLEAF_LEFT
+
+if SHIELD_FIGLEAF_LEFT || SHIELD_FIGLEAF_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif # SHIELD_FIGLEAF_LEFT || SHIELD_FIGLEAF_RIGHT
