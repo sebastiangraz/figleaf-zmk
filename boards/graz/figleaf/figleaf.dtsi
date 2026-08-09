@@ -46,7 +46,7 @@
 
 /* MK08 module is powered in high-voltage mode and includes the DC/DC inductors */
 &reg0 {
-    regulator-initial-mode = <NRF5X_REG_MODE_DCDC>;
+    status = "okay";
 };
 
 &reg1 {
